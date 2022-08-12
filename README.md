@@ -8,6 +8,7 @@ This repository uses [PointRend](https://github.com/zsef123/PointRend-PyTorch) t
 
 ## Setup
 
+- Python 3.7
 - PyTorch (v1.11)
 - Detectron2 (v0.6) [(installation instructions)](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md)
 - Numpy
