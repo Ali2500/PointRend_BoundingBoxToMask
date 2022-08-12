@@ -17,7 +17,7 @@ The code works with the version numbers above, but should work on similar versio
 
 ## Usage
 
-- You will need the model checkpoints for Mask-RCNN with PointRend based mask head. Download links for these are given under the Detectron2 framework [here](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend#instance-segmentation). For the best performance, use the largest model with the `X101-FPN` backbone.
+- You will need the model checkpoints for Mask-RCNN with PointRend based mask head. Download links for these are given under the Detectron2 framework [here](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend#instance-segmentation). For the best performance in a general setting, use the largest model trained on COCO Instance Segmentation with the `X101-FPN` backbone.
 - There is a config file associated with each checkpoint. These are present in the [Detectron2 PointRend project](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend/configs/InstanceSegmentation), but I also copied them to this repo in the `pointrend_configs` directory. 
 
 - See `demo.py` for a basic use case. It uses an image saved in `example_images`. Run it as follows:
