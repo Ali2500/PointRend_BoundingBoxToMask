@@ -33,3 +33,16 @@ python pointrendbox2mask/demo_interactive.py --config pointrend_rcnn_X_101_32x8d
 ```
 
 A window will open up showing the image. You can draw a rectangle on the image and the model will then segment a mask using this box. Draw the rectangle by starting at the top-left corner and drag the mouse cursor down to the bottom-right.
+
+## Citation
+
+If you use this in any research project, please cite the original PointRend paper:
+
+```
+@InProceedings{kirillov2019pointrend,
+  title={{PointRend}: Image Segmentation as Rendering},
+  author={Alexander Kirillov and Yuxin Wu and Kaiming He and Ross Girshick},
+  journal={ArXiv:1912.08193},
+  year={2019}
+}
+```
