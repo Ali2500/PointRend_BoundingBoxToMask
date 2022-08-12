@@ -2,7 +2,7 @@
 
 **Summary**: Convert object bounding boxes to pixel-precise segmentation masks.
 
-![Teaser](teaser.jpg) 
+![Teaser](teaser.png) 
 
 This repository uses [PointRend](https://github.com/zsef123/PointRend-PyTorch) to achieve this. No dedicated models are trained for this task. Instead we just use the PointRend based mask segmentation heads available from pre-trained Mask-RCNN models.
 
