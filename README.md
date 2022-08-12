@@ -29,7 +29,7 @@ python pointrendbox2mask/demo.py --config pointrend_rcnn_X_101_32x8d_FPN_3x_coco
 - There is also an interactive interface to try out the model on your own image. For this, run `demo_interactive.py` as follows:
 
 ```
-python pointrendbox2mask/demo.py --config pointrend_rcnn_X_101_32x8d_FPN_3x_coco.yaml --model_checkpoint /path/to/pretrained/checkpoint.pkl --image /path/to/some/image.jpg
+python pointrendbox2mask/demo_interactive.py --config pointrend_rcnn_X_101_32x8d_FPN_3x_coco.yaml --model_checkpoint /path/to/pretrained/checkpoint.pkl --image /path/to/some/image.jpg
 ```
 
 A window will open up showing the image. You can draw a rectangle on the image and the model will then segment a mask using this box. Draw the rectangle by starting at the top-left corner and drag the mouse cursor down to the bottom-right.
